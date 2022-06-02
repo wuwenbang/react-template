@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // 编译目标版本
+    "target": "es2016",
+    // 编译后的模块
+    "module": "commonjs",
+    // 严格模式
+    "strict": true,
+    // 相对路径
+    "baseUrl": "./",
+    // 路径别名
+    "paths": {
+      "src": ["./src/*"]
+    },
+    "jsx": "react-jsx"
+  }
+}
